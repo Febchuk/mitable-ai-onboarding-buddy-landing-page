@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { Icons } from "@/components/icons";
 import {
   Reasoning,
   ReasoningContent,
@@ -12,7 +11,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 export function ReasoningBasic() {
-  const reasoningText = `I can see you're in the customer management system. Based on your screen context, you're looking for the customer creation workflow. I notice there's a 'New' button in the top navigation area - that's your starting point. I can guide you through the required fields once you click it.`;
+  const reasoningText = `I can see you&apos;re in the customer management system. Based on your screen context, you&apos;re looking for the customer creation workflow. I notice there&apos;s a &apos;New&apos; button in the top navigation area - that&apos;s your starting point. I can guide you through the required fields once you click it.`;
 
   return (
     <Reasoning>

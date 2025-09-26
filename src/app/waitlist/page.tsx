@@ -4,14 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Ripple } from "@/components/ui/ripple";
 import { Icons } from "@/components/icons";
 import { ThemeToggle } from "@/components/theme-toggle";
 import confetti from "canvas-confetti";
 import Link from "next/link";
-import { ArrowLeft, Mail, Building, User, Briefcase } from "lucide-react";
-import { useState, useEffect } from "react";
+import { ArrowLeft } from "lucide-react";
+import { useState } from "react";
 
 export default function WaitlistPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,7 +33,7 @@ export default function WaitlistPage() {
     
     // Debug: Log the form data
     console.log('Form data entries:');
-    for (let [key, value] of formData.entries()) {
+    for (const [key, value] of formData.entries()) {
       console.log(key, value);
     }
     
@@ -51,7 +50,7 @@ export default function WaitlistPage() {
       tempForm.target = 'hidden_iframe';
 
       // Add all form data to the temporary form
-      for (let [key, value] of formData.entries()) {
+      for (const [key, value] of formData.entries()) {
         const input = document.createElement('input');
         input.type = 'hidden';
         input.name = key;
@@ -131,11 +130,11 @@ export default function WaitlistPage() {
           </div>
           
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight mb-3 md:mb-4">
-            Thanks! We've got you covered 🎉
+            Thanks! We&apos;ve got you covered 🎉
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-2">
-            You're now on the Mitable waitlist
+            You&apos;re now on the Mitable waitlist
           </p>
           
           <p className="text-sm text-muted-foreground/70">
@@ -173,8 +172,8 @@ export default function WaitlistPage() {
           
           <div className="max-w-xl mx-auto space-y-3 md:space-y-4">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed px-4 md:px-0">
-              Mitable is on the verge of launching. Join our waitlist so you don't miss out 
-              when we're ready to transform how your organization works with software.
+              Mitable is on the verge of launching. Join our waitlist so you don&apos;t miss out 
+              when we&apos;re ready to transform how your organization works with software.
             </p>
             <p className="text-base md:text-lg text-muted-foreground/80 px-4 md:px-0">
               Your input during development will help us create exactly what your team needs.
@@ -283,7 +282,7 @@ export default function WaitlistPage() {
             </Button>
 
             <p className="text-xs text-muted-foreground text-center">
-              We'll notify you when Mitable is ready. Unsubscribe anytime.
+              We&apos;ll notify you when Mitable is ready. Unsubscribe anytime.
             </p>
           </form>
         </div>

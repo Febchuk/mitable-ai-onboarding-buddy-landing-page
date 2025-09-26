@@ -81,7 +81,7 @@ export function HeroSection() {
               )}
             </div>
             <p className="text-sm text-muted-foreground text-center max-w-md">
-              See how screen-aware AI can transform your team's onboarding experience in just 15 minutes.
+              See how screen-aware AI can transform your team&apos;s onboarding experience in just 15 minutes.
             </p>
           </div>
         </div>

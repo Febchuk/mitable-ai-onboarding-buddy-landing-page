@@ -1,7 +1,5 @@
 import { Icons } from "@/components/icons";
 import { OrbitingCircles } from "@/components/ui/orbiting-circle";
-import { motion, AnimatePresence, useInView } from "motion/react";
-import { useEffect, useRef, useState } from "react";
 import { SiSlack, SiNotion, SiGoogledrive, SiSupabase, SiGooglegemini, SiAmazon } from "react-icons/si";
 
 export function SecondBentoAnimation() {
