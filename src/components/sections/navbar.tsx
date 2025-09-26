@@ -194,23 +194,13 @@ export function Navbar() {
                         className="p-2.5 border-b border-border last:border-b-0"
                         variants={drawerMenuVariants}
                       >
-                        {item.target ? (
-                          <a
-                            href={item.href}
-                            target={item.target}
-                            rel="noopener noreferrer"
-                            className="underline-offset-4 hover:text-primary/80 transition-colors text-primary/60"
-                          >
-                            {item.name}
-                          </a>
-                        ) : (
-                          <a
-                            href={item.href}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              const element = document.getElementById(
-                                item.href.substring(1),
-                              );
+                        <a
+                          href={item.href}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            const element = document.getElementById(
+                              item.href.substring(1),
+                            );
                               element?.scrollIntoView({ behavior: "smooth" });
                               setIsDrawerOpen(false);
                             }}
@@ -222,7 +212,6 @@ export function Navbar() {
                           >
                             {item.name}
                           </a>
-                        )}
                       </motion.li>
                     ))}
                   </AnimatePresence>

@@ -70,7 +70,7 @@ export function FirstBentoAnimation() {
             }}
           >
             <p className="text-sm">
-              I'm completely lost in this system - how do I create a new customer record? There are so many buttons and I'm afraid I'll click the wrong thing.
+              I&apos;m completely lost in this system - how do I create a new customer record? There are so many buttons and I&apos;m afraid I&apos;ll click the wrong thing.
             </p>
           </motion.div>
           <div className="flex items-center bg-background rounded-full w-fit border border-border flex-shrink-0">
