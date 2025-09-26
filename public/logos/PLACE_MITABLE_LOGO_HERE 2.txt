@@ -1,0 +1,11 @@
+This is where your Mitable logos should go:
+
+Required files:
+- mitable-logo.png (Main horizontal logo, 200x60px)
+- mitable-logo-white.png (White version for dark backgrounds)  
+- mitable-icon.png (Square icon version, 64x64px)
+- favicon.ico (Browser favicon, multiple sizes)
+
+The logos are currently SVG placeholders in the config file.
+Replace the SVG code in src/lib/config.tsx with image references like:
+<img src="/assets/logos/mitable-logo.png" alt="Mitable AI" />

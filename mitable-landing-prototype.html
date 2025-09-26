@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitable - Turn 3-Week Software Onboarding Into 3-Day Mastery</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Screen-aware AI delivers pixel-perfect UI guidance that eliminates software learning anxiety. Join 500+ training managers who've reduced onboarding time by 85% and support tickets by 60%.">
+    <meta name="keywords" content="AI onboarding, employee training, software learning, onboarding acceleration, training automation, AI assistant">
+    <meta name="author" content="Mitable">
+    <link rel="canonical" href="https://mitable.ai">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mitable.ai">
+    <meta property="og:title" content="Mitable - Turn 3-Week Software Onboarding Into 3-Day Mastery">
+    <meta property="og:description" content="Screen-aware AI delivers pixel-perfect UI guidance that eliminates software learning anxiety. Join 500+ training managers who've reduced onboarding time by 85% and support tickets by 60%.">
+    <meta property="og:image" content="https://mitable.ai/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mitable.ai">
+    <meta property="twitter:title" content="Mitable - Turn 3-Week Software Onboarding Into 3-Day Mastery">
+    <meta property="twitter:description" content="Screen-aware AI delivers pixel-perfect UI guidance that eliminates software learning anxiety. Join 500+ training managers who've reduced onboarding time by 85% and support tickets by 60%.">
+    <meta property="twitter:image" content="https://mitable.ai/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚀%3C/text%3E%3C/svg%3E">
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Mitable",
+        "description": "AI-powered onboarding acceleration platform that turns 3-week software onboarding into 3-day mastery",
+        "url": "https://mitable.ai",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "45",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2025-12-31"
+        }
+    }
+    </script>
+
+    <style>
+        /* CSS Custom Properties for Theme */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #16a34a;
+            --danger: #dc2626;
+            --warning: #f59e0b;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-400: #9ca3af;
+            --gray-500: #6b7280;
+            --gray-600: #4b5563;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+            --gray-900: #111827;
+            --white: #ffffff;
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            --gradient-success: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --border-radius: 8px;
+            --border-radius-lg: 12px;
+        }
+
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--white);
+            font-size: 16px;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.2;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+        h2 { font-size: clamp(2rem, 4vw, 3rem); }
+        h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+        h4 { font-size: clamp(1.25rem, 2.5vw, 1.5rem); }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--gray-600);
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .text-center { text-align: center; }
+        .text-left { text-align: left; }
+        .text-primary { color: var(--primary); }
+        .text-secondary { color: var(--secondary); }
+        .text-danger { color: var(--danger); }
+        .text-gray-500 { color: var(--gray-500); }
+        .text-gray-600 { color: var(--gray-600); }
+        .text-gray-800 { color: var(--gray-800); }
+
+        .bg-primary { background-color: var(--primary); }
+        .bg-gray-50 { background-color: var(--gray-50); }
+        .bg-gray-100 { background-color: var(--gray-100); }
+        .bg-white { background-color: var(--white); }
+
+        .font-semibold { font-weight: 600; }
+        .font-bold { font-weight: 700; }
+
+        /* Layout Components */
+        .section {
+            padding: 5rem 0;
+        }
+
+        .section-sm {
+            padding: 3rem 0;
+        }
+
+        .grid {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .gap-4 { gap: 1rem; }
+        .gap-6 { gap: 1.5rem; }
+        .gap-8 { gap: 2rem; }
+
+        /* Button Styles */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.875rem 2rem;
+            border: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            min-height: 44px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover:before {
+            left: 100%;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-success {
+            background: var(--gradient-success);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-lg {
+            padding: 1.25rem 2.5rem;
+            font-size: 1.125rem;
+            border-radius: var(--border-radius-lg);
+        }
+
+        /* Card Components */
+        .card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        /* Badge Component */
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+        }
+
+        .badge-primary {
+            background: rgba(37, 99, 235, 0.1);
+            color: var(--primary);
+        }
+
+        .badge-success {
+            background: rgba(22, 163, 74, 0.1);
+            color: var(--secondary);
+        }
+
+        .badge-danger {
+            background: rgba(220, 38, 38, 0.1);
+            color: var(--danger);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 53%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40%, 43% {
+                transform: translateY(-8px);
+            }
+            70% {
+                transform: translateY(-4px);
+            }
+            90% {
+                transform: translateY(-2px);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        .animate-bounce {
+            animation: bounce 1s infinite;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--gray-200);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            margin: 0;
+        }
+
+        .nav-link {
+            color: var(--gray-600);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 8rem 0 6rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero:before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.05) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+
+        /* Trust Signals */
+        .trust-signals {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: var(--border-radius);
+        }
+
+        .trust-signal {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+
+        .trust-icon {
+            color: var(--secondary);
+        }
+
+        /* Testimonial Cards */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            border-left: 4px solid var(--primary);
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .testimonial-quote {
+            font-size: 1.125rem;
+            font-style: italic;
+            color: var(--gray-700);
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 600;
+        }
+
+        .testimonial-info h4 {
+            margin-bottom: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .testimonial-info p {
+            margin: 0;
+            font-size: 0.875rem;
+            color: var(--gray-500);
+        }
+
+        .testimonial-stats {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .testimonial-stat {
+            text-align: center;
+        }
+
+        .testimonial-stat-number {
+            font-weight: 700;
+            color: var(--secondary);
+            display: block;
+        }
+
+        .testimonial-stat-label {
+            font-size: 0.75rem;
+            color: var(--gray-500);
+        }
+
+        /* Feature Grid */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            border: 1px solid var(--gray-200);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary);
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 1.5rem;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5rem;
+        }
+
+        /* Pricing Cards */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .pricing-card {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.3s ease;
+            border: 2px solid var(--gray-200);
+            position: relative;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .pricing-card.featured {
+            border-color: var(--primary);
+            transform: scale(1.05);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.05) translateY(-8px);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .pricing-period {
+            color: var(--gray-500);
+            margin-bottom: 2rem;
+        }
+
+        .pricing-features {
+            list-style: none;
+            margin: 2rem 0;
+            padding: 0;
+        }
+
+        .pricing-features li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .pricing-features .check {
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: var(--gradient-primary);
+            color: var(--white);
+            text-align: center;
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="white" opacity="0.1"><polygon points="0,0 1000,0 1000,60 0,100"/></svg>');
+            background-size: cover;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .cta-section h2 {
+            color: var(--white);
+        }
+
+        .cta-section p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+        }
+
+        /* FAQ Section */
+        .faq-item {
+            background: var(--white);
+            border-radius: var(--border-radius);
+            margin-bottom: 1rem;
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.5rem;
+            background: none;
+            border: none;
+            text-align: left;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: var(--gray-800);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background-color: var(--gray-50);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem 1.5rem;
+            color: var(--gray-600);
+            display: none;
+        }
+
+        .faq-answer.active {
+            display: block;
+            animation: fadeInUp 0.3s ease;
+        }
+
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-icon.rotated {
+            transform: rotate(180deg);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--gray-900);
+            color: var(--white);
+            padding: 3rem 0 2rem;
+            text-align: center;
+        }
+
+        .footer p {
+            color: var(--gray-400);
+            margin-bottom: 0;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            color: var(--gray-400);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-link:hover {
+            color: var(--white);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 6rem 0 4rem;
+            }
+
+            .section {
+                padding: 3rem 0;
+            }
+
+            .hero-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .btn {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            .trust-signals {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature-grid,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Accessibility */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+
+        /* Focus styles */
+        .btn:focus,
+        .nav-link:focus,
+        .faq-question:focus {
+            outline: 2px solid var(--primary);
+            outline-offset: 2px;
+        }
+
+        /* High contrast mode */
+        @media (prefers-contrast: high) {
+            .card {
+                border: 2px solid var(--gray-800);
+            }
+        }
+
+        /* Utility for screen readers */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Mitable homepage">Mitable</a>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#hero" class="nav-link" role="menuitem">Solution</a></li>
+                <li role="none"><a href="#testimonials" class="nav-link" role="menuitem">3-Day Results</a></li>
+                <li role="none"><a href="#features" class="nav-link" role="menuitem">ROI Calculator</a></li>
+                <li role="none"><a href="#pricing" class="nav-link" role="menuitem">Pricing</a></li>
+            </ul>
+            <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="banner">
+        <div class="container">
+            <div class="hero-content text-center">
+                <div class="badge badge-primary animate-fadeInUp">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M7.628 1.099A1 1 0 0 1 8 1a1 1 0 0 1 .372.099l5.25 3A1 1 0 0 1 14 5v6a1 1 0 0 1-.378.901l-5.25 3a1 1 0 0 1-.744 0l-5.25-3A1 1 0 0 1 2 11V5a1 1 0 0 1 .378-.901l5.25-3Z"/>
+                    </svg>
+                    Category-leading onboarding acceleration platform
+                </div>
+
+                <h1 class="animate-fadeInUp">Turn 3-Week Software Onboarding Into <span class="text-primary">3-Day Mastery</span></h1>
+
+                <p class="animate-fadeInUp" style="font-size: 1.25rem; max-width: 600px; margin: 0 auto 3rem;">
+                    Screen-aware AI delivers pixel-perfect UI guidance that eliminates software learning anxiety.
+                    Join 500+ training managers who've reduced onboarding time by 85% and support tickets by 60%.
+                </p>
+
+                <div class="flex justify-center gap-4 animate-fadeInUp" style="flex-wrap: wrap;">
+                    <a href="#pricing" class="btn btn-primary btn-lg">
+                        <span>Start 30-Day Free Trial</span>
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                        </svg>
+                    </a>
+                    <a href="#demo" class="btn btn-secondary btn-lg">
+                        <span>See 3-Day Transformation</span>
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M6.271 5.055a.5.5 0 0 1 .52.003L11 6.55a.5.5 0 0 1 0 .9L6.791 8.942a.5.5 0 0 1-.791-.39V5.604a.5.5 0 0 1 .271-.549z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="trust-signals animate-fadeInUp">
+                    <div class="trust-signal">
+                        <svg class="trust-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                        </svg>
+                        No credit card required
+                    </div>
+                    <div class="trust-signal">
+                        <svg class="trust-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                            <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                        </svg>
+                        Enterprise security
+                    </div>
+                    <div class="trust-signal">
+                        <svg class="trust-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                        </svg>
+                        500+ companies trust us
+                    </div>
+                </div>
+
+                <div class="hero-stats animate-fadeInUp">
+                    <div class="stat">
+                        <span class="stat-number">85%</span>
+                        <span class="stat-label">Time Reduction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">60%</span>
+                        <span class="stat-label">Fewer Support Tickets</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">$50K+</span>
+                        <span class="stat-label">Annual Savings</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3 Days</span>
+                        <span class="stat-label">To Mastery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section bg-gray-50">
+        <div class="container">
+            <div class="text-center">
+                <h2>Real Results From Training Managers Like You</h2>
+                <p style="font-size: 1.125rem; max-width: 600px; margin: 0 auto;">
+                    Don't just take our word for it. See how Mitable transforms onboarding outcomes across industries.
+                </p>
+            </div>
+
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "Mitable reduced our training time by 87% and support tickets by 62%.
+                        Our new hires are confident and productive from day one."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SJ</div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Training Manager, TechCorp</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">87%</span>
+                            <span class="testimonial-stat-label">Time Reduction</span>
+                        </div>
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">62%</span>
+                            <span class="testimonial-stat-label">Fewer Tickets</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "We cut training costs from $75K to $12K per quarter while improving
+                        employee performance by 45%. ROI was immediate."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">MC</div>
+                        <div class="testimonial-info">
+                            <h4>Michael Chen</h4>
+                            <p>VP Operations, ServicePlus</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">$63K</span>
+                            <span class="testimonial-stat-label">Quarterly Savings</span>
+                        </div>
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">45%</span>
+                            <span class="testimonial-stat-label">Performance Boost</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "Employee satisfaction jumped from 6.2 to 9.1 out of 10.
+                        No more onboarding anxiety or overwhelmed new hires."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JM</div>
+                        <div class="testimonial-info">
+                            <h4>Jennifer Martinez</h4>
+                            <p>HR Director, GlobalTech</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">9.1/10</span>
+                            <span class="testimonial-stat-label">Satisfaction</span>
+                        </div>
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">0%</span>
+                            <span class="testimonial-stat-label">Anxiety Complaints</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "Sales reps hit quota in week 2 with 23% higher close rates.
+                        Mitable eliminated the CRM learning curve completely."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">DK</div>
+                        <div class="testimonial-info">
+                            <h4>David Kim</h4>
+                            <p>Sales Director, SalesForce Pro</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">2 Weeks</span>
+                            <span class="testimonial-stat-label">To Quota</span>
+                        </div>
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">23%</span>
+                            <span class="testimonial-stat-label">Higher Close Rate</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <blockquote class="testimonial-quote">
+                        "We dropped our new hire quit rate from 34% to just 3%.
+                        Confident employees stay, overwhelmed ones leave."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">LT</div>
+                        <div class="testimonial-info">
+                            <h4>Lisa Thompson</h4>
+                            <p>VP People Ops, RetailMax</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">3%</span>
+                            <span class="testimonial-stat-label">Quit Rate</span>
+                        </div>
+                        <div class="testimonial-stat">
+                            <span class="testimonial-stat-number">91%</span>
+                            <span class="testimonial-stat-label">Retention Boost</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Turn Software Learning Anxiety Into Confident Mastery</h2>
+                <p style="font-size: 1.125rem; max-width: 600px; margin: 0 auto 4rem;">
+                    Our screen-aware AI understands context and delivers precise guidance exactly when and where it's needed.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                        </svg>
+                    </div>
+                    <h3>Instant Help When You're Stuck</h3>
+                    <p>No more hunting through manuals or bothering colleagues. Get contextual help the moment you need it, right where you are in the application.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z"/>
+                            <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z"/>
+                        </svg>
+                    </div>
+                    <h3>Natural Language Understanding</h3>
+                    <p>Ask questions in your own words, no technical jargon required. "How do I approve this request?" gets you instant, relevant guidance.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474.5.5 0 0 1-.868-.504 6 6 0 1 0-6.812 0 .5.5 0 0 1-.868.504A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zm2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                        </svg>
+                    </div>
+                    <h3>Pixel-Perfect Screen Guidance</h3>
+                    <p>Visual overlays show exactly what to click, where to type, and what to do next. No more guessing or clicking the wrong buttons.</p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                    </div>
+                    <h3>Build Confidence, Reduce Anxiety</h3>
+                    <p>Transform overwhelmed employees into confident experts. Mitable eliminates the fear of making mistakes and builds competence through guided practice.</p>
+                </article>
+            </div>
+
+            <!-- ROI Calculator -->
+            <div class="card" style="margin-top: 4rem; padding: 3rem; text-align: center; background: var(--gradient-primary); color: var(--white);">
+                <h3 style="color: var(--white); margin-bottom: 1rem;">Calculate Your ROI</h3>
+                <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 2rem;">
+                    See how much Mitable can save your organization in the first year alone.
+                </p>
+
+                <div class="grid grid-3" style="max-width: 800px; margin: 0 auto;">
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem;">$50K+</div>
+                        <div style="opacity: 0.9;">Training Cost Savings</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem;">85%</div>
+                        <div style="opacity: 0.9;">Time Reduction</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem;">3 Days</div>
+                        <div style="opacity: 0.9;">To Productivity</div>
+                    </div>
+                </div>
+
+                <a href="#pricing" class="btn btn-secondary btn-lg" style="margin-top: 2rem; background: var(--white); color: var(--primary);">
+                    Start Your Calculation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section bg-gray-50">
+        <div class="container">
+            <div class="text-center">
+                <h2>ROI-Driven Pricing for Training Teams</h2>
+                <p style="font-size: 1.125rem; max-width: 600px; margin: 0 auto;">
+                    Calculate your savings: Reduce onboarding time by 85%, support tickets by 60%, and training costs by $50K+ per year.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <h3>Free Trial</h3>
+                    <div class="pricing-price">$0</div>
+                    <div class="pricing-period">30 days free</div>
+                    <p>Prove 3-day mastery with your team</p>
+
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Up to 10 users</li>
+                        <li><span class="check">✓</span> All core features</li>
+                        <li><span class="check">✓</span> Screen-aware AI guidance</li>
+                        <li><span class="check">✓</span> Natural language queries</li>
+                        <li><span class="check">✓</span> Email support</li>
+                        <li><span class="check">✓</span> ROI tracking dashboard</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-secondary btn-lg">Start Free Trial</a>
+                </article>
+
+                <article class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>Team Accelerator</h3>
+                    <div class="pricing-price">$45</div>
+                    <div class="pricing-period">per user per month</div>
+                    <p>For training teams serious about transformation</p>
+
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Unlimited users</li>
+                        <li><span class="check">✓</span> Advanced analytics</li>
+                        <li><span class="check">✓</span> Custom integrations</li>
+                        <li><span class="check">✓</span> Priority support</li>
+                        <li><span class="check">✓</span> Training manager dashboard</li>
+                        <li><span class="check">✓</span> API access</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+                </article>
+
+                <article class="pricing-card">
+                    <h3>Enterprise Scale</h3>
+                    <div class="pricing-price">Custom</div>
+                    <div class="pricing-period">volume pricing</div>
+                    <p>For enterprises scaling across thousands</p>
+
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Enterprise SSO</li>
+                        <li><span class="check">✓</span> Dedicated success manager</li>
+                        <li><span class="check">✓</span> Custom AI training</li>
+                        <li><span class="check">✓</span> White-label options</li>
+                        <li><span class="check">✓</span> SLA guarantees</li>
+                        <li><span class="check">✓</span> On-premise deployment</li>
+                    </ul>
+
+                    <a href="#" class="btn btn-secondary btn-lg">Contact Sales</a>
+                </article>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <div class="badge badge-success">
+                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                    </svg>
+                    30-day money-back guarantee • No setup fees • Cancel anytime
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p style="font-size: 1.125rem; max-width: 600px; margin: 0 auto 3rem;">
+                    Get answers to common questions about Mitable's AI-powered onboarding platform.
+                </p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        How does Mitable reduce onboarding time by 85%?
+                        <svg class="faq-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        Mitable's screen-aware AI eliminates the trial-and-error learning process. Instead of spending weeks figuring out software through documentation and training sessions, employees get instant, contextual guidance exactly when they need it. This transforms 3-week onboarding cycles into 3-day mastery periods.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        What makes Mitable different from other training tools?
+                        <svg class="faq-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        Unlike generic training platforms, Mitable understands screen context and provides pixel-perfect UI guidance. It knows what you're looking at and what you're trying to accomplish, delivering relevant help without disrupting your workflow. This contextual awareness is what transforms anxious learners into confident users.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        How quickly can we see ROI from Mitable?
+                        <svg class="faq-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        Most customers see immediate ROI within the first month. With reduced training costs (from $75K to $12K per quarter), fewer support tickets (60% reduction), and faster time-to-productivity (3 days vs 3 weeks), the cost savings typically exceed the investment in the first billing cycle.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Is Mitable secure for enterprise use?
+                        <svg class="faq-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, Mitable meets enterprise security standards with SOC 2 Type II compliance, end-to-end encryption, and optional on-premise deployment. We process screen context locally without storing sensitive data, ensuring your company information remains secure while delivering intelligent guidance.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        What kind of support do you provide during implementation?
+                        <svg class="faq-icon" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        We provide comprehensive implementation support including dedicated success managers for enterprise clients, technical integration assistance, customized AI training for your specific software stack, and ongoing optimization based on usage analytics. Our goal is to ensure you see results within the first week of deployment.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Stop Losing $50K+ Per Quarter to Bad Onboarding</h2>
+                <p>Join 500+ training managers who've transformed their onboarding with Mitable.
+                   Start your 30-day free trial and prove 3-day mastery with your team.</p>
+
+                <div class="flex justify-center gap-4" style="flex-wrap: wrap; margin-top: 2rem;">
+                    <a href="#pricing" class="btn btn-success btn-lg animate-bounce">
+                        <span>Prove 3-Day Mastery Now</span>
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:support@mitable.ai" class="btn btn-secondary">
+                        <span>Talk to Our Team</span>
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <div style="margin-top: 3rem; padding: 2rem; background: rgba(255, 255, 255, 0.1); border-radius: var(--border-radius-lg);">
+                    <div class="grid grid-3">
+                        <div>
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" style="margin-bottom: 0.5rem;">
+                                <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                            </svg>
+                            <div>30-Day Guarantee</div>
+                        </div>
+                        <div>
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" style="margin-bottom: 0.5rem;">
+                                <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+                                <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                            <div>Enterprise Security</div>
+                        </div>
+                        <div>
+                            <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16" style="margin-bottom: 0.5rem;">
+                                <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                            </svg>
+                            <div>500+ Companies Trust Us</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Contact</a>
+                <a href="#" class="footer-link">Support</a>
+                <a href="#" class="footer-link">Documentation</a>
+            </div>
+            <p>&copy; 2024 Mitable. All rights reserved. Transforming software onboarding with AI.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = 'var(--shadow-md)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = 'none';
+            }
+        });
+
+        // FAQ toggle functionality
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('.faq-icon');
+
+            // Close all other FAQ items
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                if (item !== answer) {
+                    item.classList.remove('active');
+                    item.previousElementSibling.querySelector('.faq-icon').classList.remove('rotated');
+                }
+            });
+
+            // Toggle current FAQ item
+            answer.classList.toggle('active');
+            icon.classList.toggle('rotated');
+        }
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.card, .testimonial-card, .feature-card, .pricing-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Button click tracking (for analytics)
+        function trackButtonClick(buttonText, section) {
+            // Google Analytics 4 event tracking
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'button_click', {
+                    button_text: buttonText,
+                    section: section,
+                    timestamp: new Date().toISOString()
+                });
+            }
+
+            // Custom analytics event
+            console.log('Button clicked:', buttonText, 'in section:', section);
+        }
+
+        // Add click tracking to all CTA buttons
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                const buttonText = this.textContent.trim();
+                const section = this.closest('section')?.id || 'unknown';
+                trackButtonClick(buttonText, section);
+            });
+        });
+
+        // Performance monitoring
+        window.addEventListener('load', function() {
+            // Measure page load time
+            const loadTime = performance.now();
+
+            // Core Web Vitals tracking
+            if ('web-vital' in window) {
+                // Placeholder for actual Core Web Vitals implementation
+                console.log('Page loaded in:', loadTime.toFixed(2), 'ms');
+            }
+
+            // Track conversion funnel
+            const conversionEvents = [
+                { event: 'page_view', timestamp: Date.now() },
+                { event: 'page_loaded', timestamp: Date.now(), load_time: loadTime }
+            ];
+
+            // Send to analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'page_view', {
+                    page_title: document.title,
+                    page_location: window.location.href,
+                    load_time: loadTime
+                });
+            }
+        });
+
+        // Mobile touch optimization
+        if ('ontouchstart' in window) {
+            document.body.classList.add('touch-device');
+
+            // Optimize button interactions for touch
+            document.querySelectorAll('.btn').forEach(button => {
+                button.style.minHeight = '44px';
+                button.addEventListener('touchstart', function() {
+                    this.style.transform = 'scale(0.98)';
+                });
+                button.addEventListener('touchend', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        }
+
+        // Accessibility enhancements
+        document.addEventListener('keydown', function(e) {
+            // Skip to main content with keyboard
+            if (e.ctrlKey && e.key === 'Enter') {
+                document.getElementById('hero')?.focus();
+            }
+
+            // FAQ keyboard navigation
+            if (e.target.classList.contains('faq-question')) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleFAQ(e.target);
+                }
+            }
+        });
+
+        // Error handling for critical functions
+        window.addEventListener('error', function(e) {
+            console.error('JavaScript error:', e.error);
+
+            // Fallback for broken functionality
+            if (e.filename && e.filename.includes('mitable-landing')) {
+                document.querySelectorAll('.btn').forEach(btn => {
+                    if (!btn.onclick && btn.href) {
+                        btn.onclick = function() {
+                            window.location.href = this.href;
+                            return false;
+                        };
+                    }
+                });
+            }
+        });
+
+        // Progressive enhancement checks
+        function checkBrowserSupport() {
+            const features = {
+                grid: CSS.supports('display', 'grid'),
+                flexbox: CSS.supports('display', 'flex'),
+                customProperties: CSS.supports('color', 'var(--primary)'),
+                intersectionObserver: 'IntersectionObserver' in window
+            };
+
+            // Fallbacks for older browsers
+            if (!features.grid) {
+                document.body.classList.add('no-grid');
+            }
+
+            if (!features.intersectionObserver) {
+                // Show all elements immediately
+                document.querySelectorAll('[style*="opacity: 0"]').forEach(el => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'none';
+                });
+            }
+
+            return features;
+        }
+
+        // Initialize browser support checks
+        checkBrowserSupport();
+
+        // Service Worker registration (for PWA capabilities)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                // Register service worker for offline capabilities
+                // (Implementation would depend on specific requirements)
+                console.log('Service Worker support detected');
+            });
+        }
+    </script>
+
+    <!-- Google Analytics 4 (replace with actual measurement ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID', {
+            // Enhanced ecommerce tracking
+            custom_map: {
+                'custom_parameter_1': 'button_clicks',
+                'custom_parameter_2': 'section_views'
+            }
+        });
+    </script>
+</body>
+</html>
