@@ -24,7 +24,7 @@ export function HeroSection() {
               size={40} 
               duration={12} 
               delay={9}
-              colorFrom="#3b82f6" 
+              colorFrom="#6366F1"
               colorTo="#8b5cf6"
             />
           </div>
@@ -43,9 +43,9 @@ export function HeroSection() {
                   href={hero.cta.primary.href}
                   target={hero.cta.primary.target}
                   rel="noopener noreferrer"
-                  className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 h-12 flex items-center justify-center text-base font-medium tracking-wide rounded-full text-white px-8 shadow-lg hover:shadow-xl transition-all duration-300 ease-out active:scale-95 transform hover:-translate-y-0.5 hover:scale-105 relative overflow-hidden group"
+                  className="bg-secondary hover:bg-secondary/90 h-12 flex items-center justify-center text-base font-medium tracking-wide rounded-full text-secondary-foreground px-8 shadow-lg hover:shadow-xl transition-all duration-300 ease-out active:scale-95 transform hover:-translate-y-0.5 hover:scale-105 relative overflow-hidden group"
                 >
-                  <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                  <span className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                   <span className="relative z-10 flex items-center">
                     {hero.cta.primary.text}
                     <svg className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,9 +56,9 @@ export function HeroSection() {
               ) : (
                 <Link
                   href={hero.cta.primary.href}
-                  className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 h-12 flex items-center justify-center text-base font-medium tracking-wide rounded-full text-white px-8 shadow-lg hover:shadow-xl transition-all duration-300 ease-out active:scale-95 transform hover:-translate-y-0.5 hover:scale-105 relative overflow-hidden group"
+                  className="bg-secondary hover:bg-secondary/90 h-12 flex items-center justify-center text-base font-medium tracking-wide rounded-full text-secondary-foreground px-8 shadow-lg hover:shadow-xl transition-all duration-300 ease-out active:scale-95 transform hover:-translate-y-0.5 hover:scale-105 relative overflow-hidden group"
                 >
-                  <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                  <span className="absolute inset-0 bg-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
                   <span className="relative z-10 flex items-center">
                     {hero.cta.primary.text}
                     <svg className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,7 +71,7 @@ export function HeroSection() {
               {hero.cta.secondary && (
                 <Link
                   href={hero.cta.secondary.href}
-                  className="h-12 flex items-center justify-center px-8 text-base font-medium tracking-wide text-primary rounded-full transition-all duration-300 ease-out active:scale-95 bg-background border-2 border-blue-200 dark:border-blue-800 hover:border-blue-300 dark:hover:border-blue-700 hover:bg-blue-50 dark:hover:bg-blue-950/20 transform hover:-translate-y-0.5 group hover:scale-105"
+                  className="h-12 flex items-center justify-center px-8 text-base font-medium tracking-wide text-primary rounded-full transition-all duration-300 ease-out active:scale-95 bg-background border-2 border-secondary/20 dark:border-secondary/80 hover:border-secondary/30 dark:hover:border-secondary/70 hover:bg-secondary/5 dark:hover:bg-secondary/10 transform hover:-translate-y-0.5 group hover:scale-105"
                 >
                   <svg className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
