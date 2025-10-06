@@ -185,7 +185,7 @@ export default function WaitlistPage() {
         <div className="rounded-2xl border bg-card/60 backdrop-blur-sm p-6 md:p-10 shadow-2xl">
           <form onSubmit={handleSubmit} className="space-y-5 md:space-y-6">
             {/* Web3Forms Configuration */}
-            <input type="hidden" name="access_key" value="fdbbf1d7-f2f5-483b-a335-e880c61d78cd" />
+            <input type="hidden" name="access_key" value="038bd3cf-6de7-45f8-b72c-c8abb6bd34d0" />
             <input type="hidden" name="subject" value="New Mitable Waitlist Signup" />
             <input type="hidden" name="from_name" value="Mitable Waitlist" />
             <input type="hidden" name="redirect" value="false" />
